@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dropdown">
+      <button class="dropbtn" id="dropdownTextDisplay">Sort by</button>
+      <div class="dropdown-content">
+        <a href="#" id="sortByAuthor">A-Z by Authour</a>
+        <a href="#" id="sortByTitle">A-Z by Title</a>
+        <a href="#" id="sortByTopic">Number of Topics</a>
+      </div>
+    </div>
+    <h3 id="favoriteCount">Favorite Count: 0</h3>
+    <main id="app"></main>
+
+    <script src="js/book-data.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/bookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
